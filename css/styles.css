@@ -1,0 +1,99 @@
+:root {
+    --cor-header: #132a81;
+    --cor-drop: #03375e;
+    --cor-fundo: #0c4d7e;
+    --cor-hover: #336ca6;
+    --cor-primaria: rgb(231, 241, 236);
+  }
+  
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--cor-hover);
+    border-radius: 10px;
+  }
+  
+  header{
+    background: linear-gradient(to top, var(--cor-fundo), var(--cor-hover), var(--cor-fundo)) center repeat-y !important;
+    color: #ffffff;
+    box-shadow: 0px 1px 10px rgba(98, 140, 255, 0.5);
+    height: 50px;
+  }
+
+  input {
+    height: 25px;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0 0 0.2em rgb(99, 99, 99);
+    padding-left: 10px;
+  }
+
+  main{
+      margin: auto;
+      max-width: 300px;
+  }
+
+  section{
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  table{
+      margin: auto;
+      margin-top: 30px;
+      box-shadow: 0 0 0.2em rgb(99, 99, 99);
+      padding: 20px;
+      border-radius: 30px;
+      
+    }
+    
+   td, th {
+    box-shadow: 0 0 0.2em rgb(99, 99, 99);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
+  .container{
+    text-align: center !important;
+    width: 100%;
+  }
+  
+  .container h2{
+    padding-top: 11px;
+  }
+
+  .conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+   #add{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: var(--cor-hover);
+    color: var(--cor-primaria);
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0.2em black;
+    transition: all 0.5s;
+    font-weight: 700;
+    cursor: pointer;
+   }
+
+   #add:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+   }

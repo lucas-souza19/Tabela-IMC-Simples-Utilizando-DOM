@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Cadastro de Pacientes</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h2>Clínica de Nutrição</h2>
+        </div>
+    </header>
+
+    <body>
+        <div class="container">
+
+            <main>
+                <h3>Adicionar Novos Pacientes</h3>
+                <br>
+                
+                <section class="conteudo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </section>
+                <section class="conteudo">
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="peso" id="peso" required>
+                </section>
+                <section class="conteudo">
+                    <label for="Altura">Altura:</label>
+                    <input type="text" name="altura" id="altura" required>
+                </section>
+                <section class="conteudo">
+                    <label for="gordura">Gordura:</label>
+                    <input type="text" name="gordura" id="gordura" required>
+                </section>
+
+                <button type="submit" id="add" onclick="tabela_pacientes()">Adicionar</button>
+
+                
+            </main>
+            <section id="section_pacientes">
+
+            </section>
+        </div>
+    </body>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
